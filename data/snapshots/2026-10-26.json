@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-26",
+  "status": "verified_static_snapshot_not_live",
+  "rule": "Do not display as live. Update jobs must replace source-dated records, preserve last verified snapshot and expose source URLs.",
+  "labs": {
+    "f1": {
+      "type": "standings",
+      "asOf": "2026-10-26",
+      "source": "https://core-ecs-origin-result.core-dns.watchliveformula1.com/en/results/2026/drivers",
+      "drivers": [
+        [
+          "Kimi Antonelli",
+          "Mercedes",
+          365
+        ],
+        [
+          "George Russell",
+          "Mercedes",
+          242
+        ],
+        [
+          "Lewis Hamilton",
+          "Ferrari",
+          241
+        ],
+        [
+          "Max Verstappen",
+          "Red Bull Racing",
+          236
+        ],
+        [
+          "Charles Leclerc",
+          "Ferrari",
+          233
+        ],
+        [
+          "Lando Norris",
+          "McLaren",
+          211
+        ],
+        [
+          "Oscar Piastri",
+          "McLaren",
+          144
+        ],
+        [
+          "Isack Hadjar",
+          "Red Bull Racing",
+          105
+        ],
+        [
+          "Liam Lawson",
+          "Racing Bulls",
+          77
+        ],
+        [
+          "Pierre Gasly",
+          "Alpine",
+          42
+        ]
+      ],
+      "nextEvent": {
+        "name": "Mexico City Grand Prix",
+        "date": "2026-11-01",
+        "source": "https://grandprix.qa/standings"
+      }
+    },
+    "football": {
+      "type": "league_and_fixtures",
+      "premierLeague": {
+        "asOf": "2026-10-25",
+        "source": "https://www.footballwebpages.co.uk/premier-league/league-table",
+        "topFive": [
+          [
+            "Manchester City",
+            8,
+            21
+          ],
+          [
+            "Arsenal",
+            8,
+            21
+          ],
+          [
+            "Brighton & Hove Albion",
+            8,
+            16
+          ],
+          [
+            "Liverpool",
+            8,
+            15
+          ],
+          [
+            "Chelsea",
+            8,
+            13
+          ]
+        ]
+      },
+      "womenChampionsLeague": {
+        "source": "https://www.uefa.com/womenschampionsleague/news/02a9-2184a4a3a3d8-3d2bf80e5c0e-1000--women-s-champions-league-2026-27-league-phase-fixtures-and/",
+        "verifiedUpcoming": [
+          [
+            "2026-10-28",
+            "Arsenal",
+            "Benfica"
+          ],
+          [
+            "2026-10-28",
+            "Bayern München",
+            "Real Madrid"
+          ],
+          [
+            "2026-10-29",
+            "HB Køge Women",
+            "Barcelona"
+          ]
+        ]
+      },
+      "unfilled": [
+        "Other eleven domestic leagues",
+        "UEFA men fixtures",
+        "Nations League",
+        "W7F fixtures and editions"
+      ],
+      "status": "partial"
+    },
+    "tennis": {
+      "type": "rankings",
+      "asOf": "2026-10-26",
+      "source": "https://super.tennis/rankings/",
+      "atp": [
+        [
+          "Jannik Sinner",
+          10450
+        ],
+        [
+          "Alexander Zverev",
+          9750
+        ],
+        [
+          "Carlos Alcaraz",
+          5610
+        ],
+        [
+          "Ben Shelton",
+          4680
+        ],
+        [
+          "Daniil Medvedev",
+          3860
+        ]
+      ],
+      "wta": [
+        [
+          "Elena Rybakina",
+          9501
+        ],
+        [
+          "Aryna Sabalenka",
+          7550
+        ],
+        [
+          "Mirra Andreeva",
+          6306
+        ],
+        [
+          "Jessica Pegula",
+          6225
+        ],
+        [
+          "Coco Gauff",
+          5973
+        ]
+      ]
+    },
+    "sailgp": {
+      "type": "editorial_and_event",
+      "source": "https://sailgp.com/news/",
+      "asOf": "2026-10-13",
+      "nextEvent": {
+        "name": "Dubai Sail Grand Prix",
+        "dateStart": "2026-11-21",
+        "dateEnd": "2026-11-22"
+      },
+      "headlines": [
+        {
+          "date": "2026-10-13",
+          "title": "American Express named title sponsor of Hong Kong Sail Grand Prix"
+        },
+        {
+          "date": "2026-10-09",
+          "title": "Trittel eyes Grand Final"
+        }
+      ],
+      "standings": {
+        "status": "requires structured official results extraction",
+        "source": "https://sailgp.com/results/all-seasons/"
+      }
+    },
+    "americasCup": {
+      "type": "competition_calendar",
+      "source": "https://www.americascup.com/38th-americascup",
+      "asOf": "2026-10-26",
+      "event": "Louis Vuitton 38th America's Cup",
+      "venue": "Naples",
+      "matchStart": "2027-07-10",
+      "status": "Published official site currently indicates July 10; reconcile other previously reported July date before publication"
+    },
+    "oceanRace": {
+      "type": "editorial_results",
+      "source": "https://mediacentre.theoceanrace.com/en/press-releases",
+      "asOf": "2026-09-16",
+      "latest": [
+        {
+          "date": "2026-09-16",
+          "title": "The Ocean Race Atlantic - a stunning debut"
+        },
+        {
+          "date": "2026-09-10",
+          "title": "United by the Ocean claims victory in inaugural edition of The Ocean Race Atlantic"
+        }
+      ]
+    },
+    "surfing": {
+      "type": "forecast",
+      "location": "Nazaré",
+      "source": "https://bigwavealerts.com/en/nazare/forecast",
+      "asOf": "2026-10-26",
+      "waveFaceMeters": [
+        2.1,
+        2.6
+      ],
+      "swellPeriodSeconds": 12.5,
+      "wind": "NE 11 km/h",
+      "score": 35,
+      "condition": "quiet",
+      "forecastNotOfficialEventAlert": true
+    },
+    "sportsBusiness": {
+      "type": "conference_programme",
+      "source": "https://www.sportelmonaco.com/programme",
+      "asOf": "2026-10-26",
+      "event": "SPORTEL Monaco 2026",
+      "eventDates": [
+        "2026-10-19",
+        "2026-10-21"
+      ],
+      "sessions": [
+        "Defining Your Corporate AI Strategy",
+        "Reinventing the Athletics Experience",
+        "The Future of Production: Which Way to Go?"
+      ]
+    },
+    "highPerformance": {
+      "type": "editorial_research",
+      "status": "sports-psychology-specific paper verification still required",
+      "crossDisciplineLead": {
+        "date": "2026-10-23",
+        "title": "Sleep declines in rural communities after electricity arrives",
+        "source": "https://www.nature.com/research-highlights"
+      }
+    },
+    "filmTV": {
+      "type": "box_office",
+      "asOf": "2026-10-18",
+      "source": "https://www.boxofficemojo.com/weekend/",
+      "territory": "US/Canada",
+      "weeklyTop": [
+        [
+          "Street Fighter",
+          30775377
+        ],
+        [
+          "You Can See Everything",
+          15601418
+        ],
+        [
+          "Other Mommy",
+          8204680
+        ],
+        [
+          "Whalefall",
+          7837153
+        ],
+        [
+          "Sense and Sensibility",
+          7203465
+        ]
+      ],
+      "note": "Most recent numerically retrievable finalized weekend from current sources is 16-18 October, not the 23-25 October weekend."
+    },
+    "music": {
+      "type": "official_singles_chart",
+      "territory": "UK",
+      "asOf": "2026-10-23",
+      "validThrough": "2026-10-29",
+      "source": "https://www.officialcharts.com/charts/singles-chart/20261023/7501/",
+      "topFive": [
+        [
+          "BABYDOLL",
+          "Jamie Miller"
+        ],
+        [
+          "HOUSEWIFE",
+          "Tate McRae"
+        ],
+        [
+          "EXPECTATIONS",
+          "Olivia Rodrigo / Chappell Roan"
+        ],
+        [
+          "STOP THE WEDDING",
+          "Ashe"
+        ],
+        [
+          "GREAT EXPECTATION",
+          "Sienna Spiro"
+        ]
+      ]
+    },
+    "artDesign": {
+      "type": "event_update",
+      "event": "Art Basel Paris 2026",
+      "source": "https://www.artbasel.com/paris/visitor-information",
+      "asOf": "2026-10-26",
+      "status": "closed",
+      "notice": "Official organiser says Saturday and Sunday 24-25 October were closed; reconcile against initial advertised 23-25 October dates",
+      "venue": "Grand Palais, Paris"
+    },
+    "techScience": {
+      "type": "research_and_sector_news",
+      "asOf": "2026-10-26",
+      "sources": [
+        "https://www.nature.com/research-highlights",
+        "https://techcrunch.com/2026/10/"
+      ],
+      "research": [
+        {
+          "date": "2026-10-23",
+          "title": "Sleep declines in rural communities after electricity arrives"
+        },
+        {
+          "date": "2026-10-21",
+          "title": "AI doctors’ orders come with a sky-high bill"
+        },
+        {
+          "date": "2026-10-21",
+          "title": "Surprise! White dwarf stars come in a rainbow of colours"
+        }
+      ],
+      "companyWatch": [
+        "Anthropic"
+      ],
+      "note": "IPO/funding reporting must have per-story publication timestamp checked to avoid future-dated ingestion"
+    }
+  }
+}
